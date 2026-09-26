@@ -1,0 +1,39 @@
+name: Update Merged PR Wall
+
+on:
+  schedule:
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate PR wall SVG
+        env:
+          GH_USERNAME: TINGyu123644
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/generate_pr_wall.py \
+            --username "$GH_USERNAME" \
+            --token "$GITHUB_TOKEN" \
+            --out merged-prs.svg
+
+      - name: Commit updated SVG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add merged-prs.svg
+          git diff --staged --quiet || git commit -m "chore: refresh merged PR wall"
+          git push
