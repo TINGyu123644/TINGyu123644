@@ -1,10 +1,20 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/TINGyu123644/TINGyu123644/main/assets/banner.jpg?v=2" width="100%" alt="Elaina & DeepSeek whale banner"/>
+<table><tr>
+<td align="center" width="40%">
+<img src="https://avatars.githubusercontent.com/u/266308348?v=4" width="180" style="border-radius:50%"/>
+<br/><sub>🧹 伊蕾娜</sub>
+</td>
+<td align="center" width="20%">
+<h1>🏆</h1>
+</td>
+<td align="center" width="40%">
+<img src="https://raw.githubusercontent.com/TINGyu123644/TINGyu123644/main/assets/ds-chan-heart.jpg" width="180"/>
+<br/><sub>🐋 大肥鱼</sub>
+</td>
+</tr></table>
 
 # TINGyu主人的贡献者仓库
-
-<img src="https://raw.githubusercontent.com/TINGyu123644/TINGyu123644/main/assets/ds-chan-love.jpg" align="right" width="70"/>
 
 ### 在高星 AI / Agent 开源项目里，把 bug 修到上游
 
@@ -20,15 +30,13 @@
 <img src="https://raw.githubusercontent.com/TINGyu123644/TINGyu123644/main/assets/elaina-desk.jpg?v=3" width="100%"/>
 </td>
 <td align="center" width="45%">
-<img src="https://raw.githubusercontent.com/TINGyu123644/TINGyu123644/main/assets/ds-chan-heart.jpg" width="180"/>
+<img src="https://raw.githubusercontent.com/TINGyu123644/TINGyu123644/main/assets/ds-chan-love.jpg" width="150"/>
 </td>
 </tr></table>
 
 </div>
 
 ---
-
-<img src="https://raw.githubusercontent.com/TINGyu123644/TINGyu123644/main/assets/whale-peak.jpg" align="right" width="70"/>
 
 <!--START_SECTION:prs-->
 ## 🏆 已合并上游 PR（按仓库 star 数降序）
@@ -95,8 +103,6 @@
 </div>
 
 ---
-
-<img src="https://raw.githubusercontent.com/TINGyu123644/TINGyu123644/main/assets/whale-sleep.jpg" align="left" width="70"/>
 
 <div align="center">
 
