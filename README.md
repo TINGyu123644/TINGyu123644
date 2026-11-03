@@ -4,7 +4,7 @@
 
 # TINGyu主人的贡献者仓库
 
-<img src="https://raw.githubusercontent.com/TINGyu123644/TINGyu123644/main/assets/whale-wave.jpg" align="right" width="80"/>
+<img src="https://raw.githubusercontent.com/TINGyu123644/TINGyu123644/main/assets/ds-chan-love.jpg" align="right" width="70"/>
 
 ### 在高星 AI / Agent 开源项目里，把 bug 修到上游
 
@@ -15,7 +15,7 @@
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/TINGyu123644/TINGyu123644/main/assets/elaina-desk.jpg?v=3" width="320" alt="Elaina thinking at her desk"/>
+<img src="https://raw.githubusercontent.com/TINGyu123644/TINGyu123644/main/assets/ds-chan-heart.jpg" width="220" alt="DeepSeek-chan sending love"/>
 
 </div>
 
@@ -76,7 +76,7 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/TINGyu123644/TINGyu123644/main/assets/elaina-pr-times.jpg?v=3" width="420" alt="PR Times newspaper with Elaina"/>
+<img src="https://raw.githubusercontent.com/TINGyu123644/TINGyu123644/main/assets/ds-chan-shock.jpg" width="280" alt="DeepSeek-chan shocked at PRs"/>
 
 </div>
 
