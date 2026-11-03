@@ -1,8 +1,10 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/TINGyu123644/TINGyu123644/main/assets/banner.jpg" width="100%" alt="Elaina & DeepSeek fish banner"/>
+<img src="https://raw.githubusercontent.com/TINGyu123644/TINGyu123644/main/assets/banner.jpg" width="100%" alt="Elaina & DeepSeek whale banner"/>
 
 # TINGyu主人的贡献者仓库
+
+<img src="https://raw.githubusercontent.com/TINGyu123644/TINGyu123644/main/assets/whale-wave.jpg" align="right" width="80"/>
 
 ### 在高星 AI / Agent 开源项目里，把 bug 修到上游
 
@@ -14,6 +16,8 @@
 </div>
 
 ---
+
+<img src="https://raw.githubusercontent.com/TINGyu123644/TINGyu123644/main/assets/whale-peak.jpg" align="right" width="70"/>
 
 <!--START_SECTION:prs-->
 ## 🏆 已合并上游 PR（按仓库 star 数降序）
@@ -65,6 +69,8 @@
 <!--END_SECTION:prs-->
 
 ---
+
+<img src="https://raw.githubusercontent.com/TINGyu123644/TINGyu123644/main/assets/whale-sleep.jpg" align="left" width="70"/>
 
 <div align="center">
 
