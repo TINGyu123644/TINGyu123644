@@ -17,7 +17,7 @@
 
 <table><tr>
 <td align="center" width="55%">
-<img src="https://raw.githubusercontent.com/TINGyu123644/TINGyu123644/main/assets/elaina-desk.jpg?v=4" width="100%"/>
+<img src="https://raw.githubusercontent.com/TINGyu123644/TINGyu123644/main/assets/elaina-desk.jpg?v=5" width="100%"/>
 </td>
 <td align="center" width="45%">
 <img src="https://raw.githubusercontent.com/TINGyu123644/TINGyu123644/main/assets/ds-chan-heart.jpg" width="180"/>
