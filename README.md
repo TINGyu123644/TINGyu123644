@@ -15,7 +15,14 @@
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/TINGyu123644/TINGyu123644/main/assets/ds-chan-heart.jpg" width="220" alt="DeepSeek-chan sending love"/>
+<table><tr>
+<td align="center" width="55%">
+<img src="https://raw.githubusercontent.com/TINGyu123644/TINGyu123644/main/assets/elaina-desk.jpg?v=3" width="100%"/>
+</td>
+<td align="center" width="45%">
+<img src="https://raw.githubusercontent.com/TINGyu123644/TINGyu123644/main/assets/ds-chan-heart.jpg" width="180"/>
+</td>
+</tr></table>
 
 </div>
 
@@ -76,7 +83,14 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/TINGyu123644/TINGyu123644/main/assets/ds-chan-shock.jpg" width="280" alt="DeepSeek-chan shocked at PRs"/>
+<table><tr>
+<td align="center" width="55%">
+<img src="https://raw.githubusercontent.com/TINGyu123644/TINGyu123644/main/assets/elaina-pr-times.jpg?v=3" width="100%"/>
+</td>
+<td align="center" width="45%">
+<img src="https://raw.githubusercontent.com/TINGyu123644/TINGyu123644/main/assets/ds-chan-shock.jpg" width="200"/>
+</td>
+</tr></table>
 
 </div>
 
