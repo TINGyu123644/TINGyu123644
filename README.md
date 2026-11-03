@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/TINGyu123644/TINGyu123644/main/assets/banner.jpg" width="100%" alt="Elaina & DeepSeek whale banner"/>
+<img src="https://raw.githubusercontent.com/TINGyu123644/TINGyu123644/main/assets/banner.jpg?v=2" width="100%" alt="Elaina & DeepSeek whale banner"/>
 
 # TINGyu主人的贡献者仓库
 
@@ -15,7 +15,7 @@
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/TINGyu123644/TINGyu123644/main/assets/elaina-desk.jpg" width="320" alt="Elaina thinking at her desk"/>
+<img src="https://raw.githubusercontent.com/TINGyu123644/TINGyu123644/main/assets/elaina-desk.jpg?v=3" width="320" alt="Elaina thinking at her desk"/>
 
 </div>
 
@@ -26,12 +26,12 @@
 <!--START_SECTION:prs-->
 ## 🏆 已合并上游 PR（按仓库 star 数降序）
 
-| # | 仓库 | PR | ⭐ Stars | 增 / 删 | 文件 | 含金量 |
-|---|---|---|---|---|---|---|
-| 1 | [**langgenius/dify**](https://github.com/langgenius/dify) | [#45255](https://github.com/langgenius/dify/pull/45255) — test(api): add unit tests for uuid_utils.is_valid_uuid | ![160.3k](https://img.shields.io/badge/⭐-160.3k-181717) | ![+32](https://img.shields.io/badge/+32-brightgreen) / ![-0](https://img.shields.io/badge/-0-lightgrey) | 1 | 🧪 测试基建 |
-| 2 | [**langflow-ai/langflow**](https://github.com/langflow-ai/langflow) | [#15411](https://github.com/langflow-ai/langflow/pull/15411) — fix(schema): sanitize underscore-prefixed field names in ... | ![156.3k](https://img.shields.io/badge/⭐-156.3k-181717) | ![+264](https://img.shields.io/badge/+264-brightgreen) / ![-11](https://img.shields.io/badge/-11-lightgrey) | 4 | 🏆 核心功能修复 |
-| 3 | [**bytedance/deer-flow**](https://github.com/bytedance/deer-flow) | [#6361](https://github.com/bytedance/deer-flow/pull/6361) — fix(tests): skip MAX_PATH-exceeding blocking-io anchors o... | ![84.9k](https://img.shields.io/badge/⭐-84.9k-181717) | ![+31](https://img.shields.io/badge/+31-brightgreen) / ![-3](https://img.shields.io/badge/-3-lightgrey) | 3 | 🪟 跨平台兼容 |
-| 4 | [**volcengine/OpenViking**](https://github.com/volcengine/OpenViking) | [#6387](https://github.com/volcengine/OpenViking/pull/6387) — fix(compile): keep the compile workspace root absolute (#... | ![41.4k](https://img.shields.io/badge/⭐-41.4k-181717) | ![+39](https://img.shields.io/badge/+39-brightgreen) / ![-2](https://img.shields.io/badge/-2-lightgrey) | 2 | 🐛 真实 Bug |
+| # | 仓库 | 已合并 | PR | ⭐ Stars | 增 / 删 | 文件 | 含金量 |
+|---|---|---|---|---|---|---|---|
+| 1 | [**langgenius/dify**](https://github.com/langgenius/dify) | ![1](https://img.shields.io/badge/merged-1-2ea44f) | [#45255](https://github.com/langgenius/dify/pull/45255) — test(api): add unit tests for uuid_utils.is_valid_uuid | ![160.3k](https://img.shields.io/badge/⭐-160.3k-181717) | ![+32](https://img.shields.io/badge/+32-brightgreen) / ![-0](https://img.shields.io/badge/-0-lightgrey) | 1 | 🧪 测试基建 |
+| 2 | [**langflow-ai/langflow**](https://github.com/langflow-ai/langflow) | ![1](https://img.shields.io/badge/merged-1-2ea44f) | [#15411](https://github.com/langflow-ai/langflow/pull/15411) — fix(schema): sanitize underscore-prefixed field names in ... | ![156.3k](https://img.shields.io/badge/⭐-156.3k-181717) | ![+264](https://img.shields.io/badge/+264-brightgreen) / ![-11](https://img.shields.io/badge/-11-lightgrey) | 4 | 🏆 核心功能修复 |
+| 3 | [**bytedance/deer-flow**](https://github.com/bytedance/deer-flow) | ![1](https://img.shields.io/badge/merged-1-2ea44f) | [#6361](https://github.com/bytedance/deer-flow/pull/6361) — fix(tests): skip MAX_PATH-exceeding blocking-io anchors o... | ![84.9k](https://img.shields.io/badge/⭐-84.9k-181717) | ![+31](https://img.shields.io/badge/+31-brightgreen) / ![-3](https://img.shields.io/badge/-3-lightgrey) | 3 | 🪟 跨平台兼容 |
+| 4 | [**volcengine/OpenViking**](https://github.com/volcengine/OpenViking) | ![1](https://img.shields.io/badge/merged-1-2ea44f) | [#6387](https://github.com/volcengine/OpenViking/pull/6387) — fix(compile): keep the compile workspace root absolute (#... | ![41.4k](https://img.shields.io/badge/⭐-41.4k-181717) | ![+39](https://img.shields.io/badge/+39-brightgreen) / ![-2](https://img.shields.io/badge/-2-lightgrey) | 2 | 🐛 真实 Bug |
 
 ### 📖 每条 PR 在修什么
 
@@ -76,7 +76,7 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/TINGyu123644/TINGyu123644/main/assets/elaina-pr-times.jpg" width="420" alt="PR Times newspaper with Elaina"/>
+<img src="https://raw.githubusercontent.com/TINGyu123644/TINGyu123644/main/assets/elaina-pr-times.jpg?v=3" width="420" alt="PR Times newspaper with Elaina"/>
 
 </div>
 
