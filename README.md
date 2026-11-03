@@ -1,6 +1,8 @@
 <div align="center">
 
-# 🚀 TINGyu 主人的贡献者仓库
+<img src="https://raw.githubusercontent.com/TINGyu123644/TINGyu123644/main/assets/banner.jpg" width="100%" alt="Elaina & DeepSeek fish banner"/>
+
+# TINGyu主人的贡献者仓库
 
 ### 在高星 AI / Agent 开源项目里，把 bug 修到上游
 
@@ -13,22 +15,19 @@
 
 ---
 
-## 🏆 Merged Upstream PRs
+<!--START_SECTION:prs-->
+## 🏆 已合并上游 PR（按仓库 star 数降序）
 
-> 按合并时间倒序。**含金量** = 改动性质 × 项目量级 × 影响面；数据取自 GitHub 实时 API。
-
-| 合并时间 | 仓库 | PR | ⭐ Stars | 增 / 删 | 文件 | 含金量 |
+| # | 仓库 | PR | ⭐ Stars | 增 / 删 | 文件 | 含金量 |
 |---|---|---|---|---|---|---|
-| 2026-11-03 | langgenius/dify | [#45255](https://github.com/langgenius/dify/pull/45255) | ![160.3k](https://img.shields.io/badge/⭐-160.3k-181717) | ![+32](https://img.shields.io/badge/+32-brightgreen) / ![-0](https://img.shields.io/badge/-0-lightgrey) | 1 | 🧪 测试基建 |
-| 2026-10-21 | volcengine/OpenViking | [#6387](https://github.com/volcengine/OpenViking/pull/6387) | ![41.4k](https://img.shields.io/badge/⭐-41.4k-181717) | ![+39](https://img.shields.io/badge/+39-brightgreen) / ![-2](https://img.shields.io/badge/-2-lightgrey) | 2 | 🐛 真实 Bug |
-| 2026-10-06 | bytedance/deer-flow | [#6361](https://github.com/bytedance/deer-flow/pull/6361) | ![84.9k](https://img.shields.io/badge/⭐-84.9k-181717) | ![+31](https://img.shields.io/badge/+31-brightgreen) / ![-3](https://img.shields.io/badge/-3-lightgrey) | 3 | 🪟 跨平台兼容 |
-| 2026-09-28 | langflow-ai/langflow | [#15411](https://github.com/langflow-ai/langflow/pull/15411) | ![156.3k](https://img.shields.io/badge/⭐-156.3k-181717) | ![+264](https://img.shields.io/badge/+264-brightgreen) / ![-11](https://img.shields.io/badge/-11-lightgrey) | 4 | 🏆 核心功能修复 |
+| 1 | [**langgenius/dify**](https://github.com/langgenius/dify) | [#45255](https://github.com/langgenius/dify/pull/45255) — test(api): add unit tests for uuid_utils.is_valid_uuid | ![160.3k](https://img.shields.io/badge/⭐-160.3k-181717) | ![+32](https://img.shields.io/badge/+32-brightgreen) / ![-0](https://img.shields.io/badge/-0-lightgrey) | 1 | 🧪 测试基建 |
+| 2 | [**langflow-ai/langflow**](https://github.com/langflow-ai/langflow) | [#15411](https://github.com/langflow-ai/langflow/pull/15411) — fix(schema): sanitize underscore-prefixed field names | ![156.3k](https://img.shields.io/badge/⭐-156.3k-181717) | ![+264](https://img.shields.io/badge/+264-brightgreen) / ![-11](https://img.shields.io/badge/-11-lightgrey) | 4 | 🏆 核心功能修复 |
+| 3 | [**bytedance/deer-flow**](https://github.com/bytedance/deer-flow) | [#6361](https://github.com/bytedance/deer-flow/pull/6361) — fix(tests): skip MAX_PATH-exceeding blocking-io anchors on Windows | ![84.9k](https://img.shields.io/badge/⭐-84.9k-181717) | ![+31](https://img.shields.io/badge/+31-brightgreen) / ![-3](https://img.shields.io/badge/-3-lightgrey) | 3 | 🪟 跨平台兼容 |
+| 4 | [**volcengine/OpenViking**](https://github.com/volcengine/OpenViking) | [#6387](https://github.com/volcengine/OpenViking/pull/6387) — fix(compile): keep the compile workspace root absolute | ![41.4k](https://img.shields.io/badge/⭐-41.4k-181717) | ![+39](https://img.shields.io/badge/+39-brightgreen) / ![-2](https://img.shields.io/badge/-2-lightgrey) | 2 | 🐛 真实 Bug |
 
----
+### 📖 每条 PR 在修什么
 
-## 📖 每条 PR 在修什么
-
-### 🧪 [#45255](https://github.com/langgenius/dify/pull/45255) · dify — 补全 uuid 校验单元测试
+#### 🧪 [#45255](https://github.com/langgenius/dify/pull/45255) · [langgenius/dify](https://github.com/langgenius/dify) — 补全 uuid 校验单元测试
 **合并者 @wylswz · 2026-11-03 · +32 / −0 · 1 file**
 
 - `api/core/tools/utils/uuid_utils.py` 的 `is_valid_uuid` 此前**零测试覆盖**（旧测试覆盖的是另一个 `libs/uuid_utils.py`）。
@@ -37,24 +36,7 @@
 
 ---
 
-### 🐛 [#6387](https://github.com/volcengine/OpenViking/pull/6387) · OpenViking — 编译沙箱根目录必须绝对化
-**合并者 @fujiajie666 · 2026-10-21 · +39 / −2 · 2 files · Fixes #6376**
-
-- Docker 部署里 `storage.workspace` 配成相对路径时，每个 `ov compile` 任务在 `stage=sandbox` 直接报 `mkdir: cannot create directory ... No such file or directory`。
-- 根因：`CompileSandboxManager` 把相对工作区根传进沙箱后端，凭证路径被相对解析了**两次**。
-- 修复：在唯一入口 `CompileSandboxManager.__init__` 里把根目录 `resolve()` 成绝对路径，并加回归测试（相对 workspace 下断言凭证路径为绝对路径）。
-
----
-
-### 🪟 [#6361](https://github.com/bytedance/deer-flow/pull/6361) · deer-flow — Windows 跳过超 MAX_PATH 的 blocking-io 锚点
-**合并者 @WillemJiang · 2026-10-06 · +31 / −3 · 3 files · Milestone 2.2.0**
-
-- `backend/tests/blocking_io/` 下 12 个锚点在 Windows 上确定性地挂在 `OSError: [Errno 206] Filename or extension too long`，根本走不到被测逻辑——真实磁盘布局嵌套 + `tmp_path` 前缀突破了 260 字符 MAX_PATH。
-- 给三个受影响文件加模块级 `pytest.mark.skipif(os.name == "nt")`，对齐项目已合并的 `#6257` / `#5931` 约定；POSIX 上照常跑，Windows CI 转绿。
-
----
-
-### 🏆 [#15411](https://github.com/langflow-ai/langflow/pull/15411) · langflow — MCP 下划线开头字段被静默丢弃
+#### 🏆 [#15411](https://github.com/langflow-ai/langflow/pull/15411) · [langflow-ai/langflow](https://github.com/langflow-ai/langflow) — MCP 下划线开头字段被静默丢弃
 **合并者 @erichare · 2026-09-28 · +264 / −11 · 4 files · Fixes #15407**
 
 - JSON Schema 属性名允许以 `_` 开头（Glean 的 `chat`/`search` 工具就这么声明 `_user_goal`），但 Pydantic 把前导下划线字段当私有属性，`create_model()` 直接抛 `NameError`；`update_tools()` 又把这个异常吞掉继续——**用户看到的是 "Successfully loaded 0 tools"，全程无报错**。
@@ -63,9 +45,28 @@
 
 ---
 
+#### 🪟 [#6361](https://github.com/bytedance/deer-flow/pull/6361) · [bytedance/deer-flow](https://github.com/bytedance/deer-flow) — Windows 跳过超 MAX_PATH 的 blocking-io 锚点
+**合并者 @WillemJiang · 2026-10-06 · +31 / −3 · 3 files · Milestone 2.2.0**
+
+- `backend/tests/blocking_io/` 下 12 个锚点在 Windows 上确定性地挂在 `OSError: [Errno 206] Filename or extension too long`，根本走不到被测逻辑——真实磁盘布局嵌套 + `tmp_path` 前缀突破了 260 字符 MAX_PATH。
+- 给三个受影响文件加模块级 `pytest.mark.skipif(os.name == "nt")`，对齐项目已合并的 `#6257` / `#5931` 约定；POSIX 上照常跑，Windows CI 转绿。
+
+---
+
+#### 🐛 [#6387](https://github.com/volcengine/OpenViking/pull/6387) · [volcengine/OpenViking](https://github.com/volcengine/OpenViking) — 编译沙箱根目录必须绝对化
+**合并者 @fujiajie666 · 2026-10-21 · +39 / −2 · 2 files · Fixes #6376**
+
+- Docker 部署里 `storage.workspace` 配成相对路径时，每个 `ov compile` 任务在 `stage=sandbox` 直接报 `mkdir: cannot create directory ... No such file or directory`。
+- 根因：`CompileSandboxManager` 把相对工作区根传进沙箱后端，凭证路径被相对解析了**两次**。
+- 修复：在唯一入口 `CompileSandboxManager.__init__` 里把根目录 `resolve()` 成绝对路径，并加回归测试（相对 workspace 下断言凭证路径为绝对路径）。
+
+<!--END_SECTION:prs-->
+
+---
+
 <div align="center">
 
-<sub>自动刷新墙（GitHub Actions）</sub>
+<sub>自动刷新墙（GitHub Actions · 每小时刷新 star 数与 PR 列表）</sub>
 
 ![Merged PR Wall](https://raw.githubusercontent.com/TINGyu123644/TINGyu123644/main/merged-prs.svg)
 
