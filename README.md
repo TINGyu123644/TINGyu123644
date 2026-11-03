@@ -13,6 +13,10 @@
 ![Lines](https://img.shields.io/badge/Net_CHURN-+366__-16-008080?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
+<br/>
+
+<img src="https://raw.githubusercontent.com/TINGyu123644/TINGyu123644/main/assets/elaina-desk.jpg" width="320" alt="Elaina thinking at her desk"/>
+
 </div>
 
 ---
@@ -67,6 +71,14 @@
 ---
 
 <!--END_SECTION:prs-->
+
+---
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/TINGyu123644/TINGyu123644/main/assets/elaina-pr-times.jpg" width="420" alt="PR Times newspaper with Elaina"/>
+
+</div>
 
 ---
 
