@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://aka.doubaocdn.com/s/kYAuhsuXRU" width="100%" alt="Elaina & DeepSeek fish banner"/>
+<img src="https://raw.githubusercontent.com/TINGyu123644/TINGyu123644/main/assets/banner.jpg" width="100%" alt="Elaina & DeepSeek fish banner"/>
 
 # TINGyu主人的贡献者仓库
 
