@@ -3,7 +3,7 @@
 <rect x="24.0" y="16" width="193.9" height="56" rx="6" fill="#2d333b"/>
 <text x="38.0" y="49.0" fill="#ffffff" font-size="13" font-weight="700" letter-spacing="0.5">MERGED PRS</text>
 <rect x="217.9" y="16" width="75.4" height="56" rx="6" fill="#8250df"/>
-<text x="255.6" y="51.0" fill="#ffffff" font-size="19" font-weight="800" text-anchor="middle">5</text>
+<text x="255.6" y="51.0" fill="#ffffff" font-size="19" font-weight="800" text-anchor="middle">6</text>
 <rect x="305.3" y="16" width="193.9" height="56" rx="6" fill="#2d333b"/>
 <text x="319.3" y="49.0" fill="#ffffff" font-size="13" font-weight="700" letter-spacing="0.5">PROJECTS</text>
 <rect x="499.3" y="16" width="75.4" height="56" rx="6" fill="#0969da"/>
@@ -11,7 +11,7 @@
 <rect x="586.7" y="16" width="193.9" height="56" rx="6" fill="#2d333b"/>
 <text x="600.7" y="49.0" fill="#ffffff" font-size="13" font-weight="700" letter-spacing="0.5">UPSTREAM ★</text>
 <rect x="780.6" y="16" width="75.4" height="56" rx="6" fill="#bc4c00"/>
-<text x="818.3" y="51.0" fill="#ffffff" font-size="19" font-weight="800" text-anchor="middle">443.1k</text>
+<text x="818.3" y="51.0" fill="#ffffff" font-size="19" font-weight="800" text-anchor="middle">443.2k</text>
 <rect x="24" y="94" width="832" height="44" fill="#ffffff" stroke="#d0d7de"/>
 <text x="48" y="122.0" fill="#24292f" font-size="16" font-weight="700">Project</text>
 <text x="573.12" y="122.0" fill="#24292f" font-size="16" font-weight="700" text-anchor="middle">★ Stars</text>
@@ -19,7 +19,7 @@
 <rect x="24" y="138" width="832" height="46" fill="#ffffff" stroke="#d0d7de"/>
 <text x="48" y="167.0" fill="#0969da" font-size="15" font-weight="500">langgenius/dify</text>
 <text x="573.12" y="167.0" fill="#24292f" font-size="15" text-anchor="middle">160.4k</text>
-<text x="756.16" y="167.0" fill="#24292f" font-size="15" text-anchor="middle">1</text>
+<text x="756.16" y="167.0" fill="#24292f" font-size="15" text-anchor="middle">2</text>
 <rect x="24" y="184" width="832" height="46" fill="#f6f8fa" stroke="#d0d7de"/>
 <text x="48" y="213.0" fill="#0969da" font-size="15" font-weight="500">langflow-ai/langflow</text>
 <text x="573.12" y="213.0" fill="#24292f" font-size="15" text-anchor="middle">156.3k</text>

@@ -36,9 +36,10 @@
 | # | 仓库 | PR | ⭐ Stars | 增 / 删 | 文件 | 含金量 |
 |---|---|---|---|---|---|---|
 | 1 | [**langgenius/dify**](https://github.com/langgenius/dify) | [#45255](https://github.com/langgenius/dify/pull/45255) — test(api): add unit tests for uuid_utils.is_valid_uuid | ![160.4k](https://img.shields.io/badge/⭐-160.4k-181717) | ![+32](https://img.shields.io/badge/+32-brightgreen) / ![-0](https://img.shields.io/badge/-0-lightgrey) | 1 | 🧪 测试基建 |
-| 2 | [**langflow-ai/langflow**](https://github.com/langflow-ai/langflow) | [#15411](https://github.com/langflow-ai/langflow/pull/15411) — fix(schema): sanitize underscore-prefixed field names in ... | ![156.3k](https://img.shields.io/badge/⭐-156.3k-181717) | ![+264](https://img.shields.io/badge/+264-brightgreen) / ![-11](https://img.shields.io/badge/-11-lightgrey) | 4 | 🏆 核心功能修复 |
-| 3 | [**bytedance/deer-flow**](https://github.com/bytedance/deer-flow) | [#6361](https://github.com/bytedance/deer-flow/pull/6361) — fix(tests): skip MAX_PATH-exceeding blocking-io anchors o... | ![85.0k](https://img.shields.io/badge/⭐-85.0k-181717) | ![+31](https://img.shields.io/badge/+31-brightgreen) / ![-3](https://img.shields.io/badge/-3-lightgrey) | 3 | 🪟 跨平台兼容 |
-| 4 | [**volcengine/OpenViking**](https://github.com/volcengine/OpenViking) | [#6387](https://github.com/volcengine/OpenViking/pull/6387) — fix(compile): keep the compile workspace root absolute (#... | ![41.5k](https://img.shields.io/badge/⭐-41.5k-181717) | ![+39](https://img.shields.io/badge/+39-brightgreen) / ![-2](https://img.shields.io/badge/-2-lightgrey) | 2 | 🐛 真实 Bug |
+| 2 | [**langgenius/dify**](https://github.com/langgenius/dify) | [#45254](https://github.com/langgenius/dify/pull/45254) — test(api): add unit tests for remove_leading_symbols | ![160.4k](https://img.shields.io/badge/⭐-160.4k-181717) | ![+59](https://img.shields.io/badge/+59-brightgreen) / ![-0](https://img.shields.io/badge/-0-lightgrey) | 1 | 📌 merged |
+| 3 | [**langflow-ai/langflow**](https://github.com/langflow-ai/langflow) | [#15411](https://github.com/langflow-ai/langflow/pull/15411) — fix(schema): sanitize underscore-prefixed field names in ... | ![156.3k](https://img.shields.io/badge/⭐-156.3k-181717) | ![+264](https://img.shields.io/badge/+264-brightgreen) / ![-11](https://img.shields.io/badge/-11-lightgrey) | 4 | 🏆 核心功能修复 |
+| 4 | [**bytedance/deer-flow**](https://github.com/bytedance/deer-flow) | [#6361](https://github.com/bytedance/deer-flow/pull/6361) — fix(tests): skip MAX_PATH-exceeding blocking-io anchors o... | ![85.0k](https://img.shields.io/badge/⭐-85.0k-181717) | ![+31](https://img.shields.io/badge/+31-brightgreen) / ![-3](https://img.shields.io/badge/-3-lightgrey) | 3 | 🪟 跨平台兼容 |
+| 5 | [**volcengine/OpenViking**](https://github.com/volcengine/OpenViking) | [#6387](https://github.com/volcengine/OpenViking/pull/6387) — fix(compile): keep the compile workspace root absolute (#... | ![41.5k](https://img.shields.io/badge/⭐-41.5k-181717) | ![+39](https://img.shields.io/badge/+39-brightgreen) / ![-2](https://img.shields.io/badge/-2-lightgrey) | 2 | 🐛 真实 Bug |
 
 ### 📖 每条 PR 在修什么
 
@@ -48,6 +49,12 @@
 - `api/core/tools/utils/uuid_utils.py` 的 `is_valid_uuid` 此前**零测试覆盖**（旧测试覆盖的是另一个 `libs/uuid_utils.py`）。
 - 新增 11 个参数化用例：规范连字符、大写、无连字符、带花括号、`urn:uuid:` 前缀 → 全部接受；`None`、空串、普通词、长短一位、非十六进制字符 → 全部拒绝。
 - 纯增量、不改生产代码；review 轮按 pyrefly `strict` preset 补了 `-> None` 返回类型标注。
+
+---
+
+#### 📌 [#45254](https://github.com/langgenius/dify/pull/45254) · [langgenius/dify](https://github.com/langgenius/dify) — test(api): add unit tests for remove_leading_symbo
+**合并者 maintainer · 2026-11-04 · +59 / −0 · 1 files**
+
 
 ---
 
