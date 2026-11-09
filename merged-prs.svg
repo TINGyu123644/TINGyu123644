@@ -3,7 +3,7 @@
 <rect x="24" y="16" width="260" height="56" rx="6" fill="#2d333b"/>
 <text x="38" y="49" fill="#ffffff" font-size="13" font-weight="700" letter-spacing="0.5">MERGED PRS</text>
 <rect x="214" y="16" width="70" height="56" rx="6" fill="#8250df"/>
-<text x="249" y="51" fill="#ffffff" font-size="19" font-weight="800" text-anchor="middle">9</text>
+<text x="249" y="51" fill="#ffffff" font-size="19" font-weight="800" text-anchor="middle">10</text>
 <rect x="300" y="16" width="260" height="56" rx="6" fill="#2d333b"/>
 <text x="314" y="49" fill="#ffffff" font-size="13" font-weight="700" letter-spacing="0.5">PROJECTS</text>
 <rect x="490" y="16" width="70" height="56" rx="6" fill="#0969da"/>
@@ -19,7 +19,7 @@
 <rect x="24" y="130" width="832" height="46" fill="#ffffff" stroke="#d0d7de"/>
 <text x="48" y="159" fill="#0969da" font-size="15" font-weight="500">langgenius/dify</text>
 <text x="573" y="159" fill="#24292f" font-size="15" text-anchor="middle">160.7k</text>
-<text x="756" y="159" fill="#24292f" font-size="15" text-anchor="middle">6</text>
+<text x="756" y="159" fill="#24292f" font-size="15" text-anchor="middle">7</text>
 <rect x="24" y="176" width="832" height="46" fill="#f6f8fa" stroke="#d0d7de"/>
 <text x="48" y="205" fill="#0969da" font-size="15" font-weight="500">langflow-ai/langflow</text>
 <text x="573" y="205" fill="#24292f" font-size="15" text-anchor="middle">156.5k</text>
