@@ -1,40 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="392" viewBox="0 0 880 392" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">
-<rect width="880" height="392" fill="#ffffff"/>
-<rect x="24.0" y="16" width="193.9" height="56" rx="6" fill="#2d333b"/>
-<text x="38.0" y="49.0" fill="#ffffff" font-size="13" font-weight="700" letter-spacing="0.5">MERGED PRS</text>
-<rect x="217.9" y="16" width="75.4" height="56" rx="6" fill="#8250df"/>
-<text x="255.6" y="51.0" fill="#ffffff" font-size="19" font-weight="800" text-anchor="middle">10</text>
-<rect x="305.3" y="16" width="193.9" height="56" rx="6" fill="#2d333b"/>
-<text x="319.3" y="49.0" fill="#ffffff" font-size="13" font-weight="700" letter-spacing="0.5">PROJECTS</text>
-<rect x="499.3" y="16" width="75.4" height="56" rx="6" fill="#0969da"/>
-<text x="537.0" y="51.0" fill="#ffffff" font-size="19" font-weight="800" text-anchor="middle">5</text>
-<rect x="586.7" y="16" width="193.9" height="56" rx="6" fill="#2d333b"/>
-<text x="600.7" y="49.0" fill="#ffffff" font-size="13" font-weight="700" letter-spacing="0.5">UPSTREAM ★</text>
-<rect x="780.6" y="16" width="75.4" height="56" rx="6" fill="#bc4c00"/>
-<text x="818.3" y="51.0" fill="#ffffff" font-size="19" font-weight="800" text-anchor="middle">444.2k</text>
-<rect x="24" y="94" width="832" height="44" fill="#ffffff" stroke="#d0d7de"/>
-<text x="48" y="122.0" fill="#24292f" font-size="16" font-weight="700">Project</text>
-<text x="573.12" y="122.0" fill="#24292f" font-size="16" font-weight="700" text-anchor="middle">★ Stars</text>
-<text x="756.16" y="122.0" fill="#24292f" font-size="16" font-weight="700" text-anchor="middle">Merged</text>
-<rect x="24" y="138" width="832" height="46" fill="#ffffff" stroke="#d0d7de"/>
-<text x="48" y="167.0" fill="#0969da" font-size="15" font-weight="500">langgenius/dify</text>
-<text x="573.12" y="167.0" fill="#24292f" font-size="15" text-anchor="middle">160.7k</text>
-<text x="756.16" y="167.0" fill="#24292f" font-size="15" text-anchor="middle">6</text>
-<rect x="24" y="184" width="832" height="46" fill="#f6f8fa" stroke="#d0d7de"/>
-<text x="48" y="213.0" fill="#0969da" font-size="15" font-weight="500">langflow-ai/langflow</text>
-<text x="573.12" y="213.0" fill="#24292f" font-size="15" text-anchor="middle">156.5k</text>
-<text x="756.16" y="213.0" fill="#24292f" font-size="15" text-anchor="middle">1</text>
-<rect x="24" y="230" width="832" height="46" fill="#ffffff" stroke="#d0d7de"/>
-<text x="48" y="259.0" fill="#0969da" font-size="15" font-weight="500">bytedance/deer-flow</text>
-<text x="573.12" y="259.0" fill="#24292f" font-size="15" text-anchor="middle">85.2k</text>
-<text x="756.16" y="259.0" fill="#24292f" font-size="15" text-anchor="middle">1</text>
-<rect x="24" y="276" width="832" height="46" fill="#f6f8fa" stroke="#d0d7de"/>
-<text x="48" y="305.0" fill="#0969da" font-size="15" font-weight="500">volcengine/OpenViking</text>
-<text x="573.12" y="305.0" fill="#24292f" font-size="15" text-anchor="middle">41.9k</text>
-<text x="756.16" y="305.0" fill="#24292f" font-size="15" text-anchor="middle">1</text>
-<rect x="24" y="322" width="832" height="46" fill="#ffffff" stroke="#d0d7de"/>
-<text x="48" y="351.0" fill="#0969da" font-size="15" font-weight="500">mulianyun/library_management_new</text>
-<text x="573.12" y="351.0" fill="#24292f" font-size="15" text-anchor="middle">0</text>
-<text x="756.16" y="351.0" fill="#24292f" font-size="15" text-anchor="middle">1</text>
-<text x="24" y="384" fill="#57606a" font-size="11">Updated 2026-11-09 · via GitHub Actions · @TINGyu123644</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="344" viewBox="0 0 880 344" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">
+<rect width="880" height="344" fill="#ffffff"/>
+<rect x="24" y="16" width="260" height="56" rx="6" fill="#2d333b"/>
+<text x="38" y="49" fill="#ffffff" font-size="13" font-weight="700" letter-spacing="0.5">MERGED PRS</text>
+<rect x="214" y="16" width="70" height="56" rx="6" fill="#8250df"/>
+<text x="249" y="51" fill="#ffffff" font-size="19" font-weight="800" text-anchor="middle">9</text>
+<rect x="300" y="16" width="260" height="56" rx="6" fill="#2d333b"/>
+<text x="314" y="49" fill="#ffffff" font-size="13" font-weight="700" letter-spacing="0.5">PROJECTS</text>
+<rect x="490" y="16" width="70" height="56" rx="6" fill="#0969da"/>
+<text x="525" y="51" fill="#ffffff" font-size="19" font-weight="800" text-anchor="middle">4</text>
+<rect x="576" y="16" width="260" height="56" rx="6" fill="#2d333b"/>
+<text x="590" y="49" fill="#ffffff" font-size="13" font-weight="700" letter-spacing="0.5">UPSTREAM ★</text>
+<rect x="766" y="16" width="70" height="56" rx="6" fill="#bc4c00"/>
+<text x="801" y="51" fill="#ffffff" font-size="19" font-weight="800" text-anchor="middle">444.2k</text>
+<rect x="24" y="86" width="832" height="44" fill="#ffffff" stroke="#d0d7de"/>
+<text x="48" y="114" fill="#24292f" font-size="16" font-weight="700">Project</text>
+<text x="573" y="114" fill="#24292f" font-size="16" font-weight="700" text-anchor="middle">★ Stars</text>
+<text x="756" y="114" fill="#24292f" font-size="16" font-weight="700" text-anchor="middle">Merged</text>
+<rect x="24" y="130" width="832" height="46" fill="#ffffff" stroke="#d0d7de"/>
+<text x="48" y="159" fill="#0969da" font-size="15" font-weight="500">langgenius/dify</text>
+<text x="573" y="159" fill="#24292f" font-size="15" text-anchor="middle">160.7k</text>
+<text x="756" y="159" fill="#24292f" font-size="15" text-anchor="middle">6</text>
+<rect x="24" y="176" width="832" height="46" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="48" y="205" fill="#0969da" font-size="15" font-weight="500">langflow-ai/langflow</text>
+<text x="573" y="205" fill="#24292f" font-size="15" text-anchor="middle">156.5k</text>
+<text x="756" y="205" fill="#24292f" font-size="15" text-anchor="middle">1</text>
+<rect x="24" y="222" width="832" height="46" fill="#ffffff" stroke="#d0d7de"/>
+<text x="48" y="251" fill="#0969da" font-size="15" font-weight="500">bytedance/deer-flow</text>
+<text x="573" y="251" fill="#24292f" font-size="15" text-anchor="middle">85.2k</text>
+<text x="756" y="251" fill="#24292f" font-size="15" text-anchor="middle">1</text>
+<rect x="24" y="268" width="832" height="46" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="48" y="297" fill="#0969da" font-size="15" font-weight="500">volcengine/OpenViking</text>
+<text x="573" y="297" fill="#24292f" font-size="15" text-anchor="middle">41.9k</text>
+<text x="756" y="297" fill="#24292f" font-size="15" text-anchor="middle">1</text>
+<text x="24" y="326" fill="#57606a" font-size="11">Updated 2026-11-09 · via GitHub Actions · @TINGyu123644</text>
 </svg>
