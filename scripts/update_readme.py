@@ -4,6 +4,7 @@
 Pulls all merged PRs authored by TINGyu123644, excludes the library-homework PR,
 fetches each upstream repo's stargazer count, sorts by stars DESC, and rewrites
 the README section delimited by <!--START_SECTION:prs--> / <!--END_SECTION:prs-->.
+Also updates the top badge row (merged PR count, net churn, stars reached).
 
 Human-curated 'gold-content' blurbs live in PR_META below; newly merged PRs without
 an entry fall back to a generic emoji/label and can be enriched later.
@@ -58,6 +59,33 @@ PR_META = {
             "纯增量、不改生产代码；review 轮按 pyrefly `strict` preset 补了 `-> None` 返回类型标注。",
         ],
     },
+    "langgenius/dify#45254": {
+        "emoji": "🧪", "label": "测试基建",
+        "merger": "@asukaminato0721",
+        "bullets": [
+            "`remove_leading_symbols` 工具函数此前无单元测试覆盖。",
+            "新增参数化用例覆盖：前导符号剥离、纯符号输入、混合符号+文字、边界空串等场景。",
+            "纯增量测试，不改生产代码。",
+        ],
+    },
+    "langgenius/dify#45225": {
+        "emoji": "🐛", "label": "真实 Bug",
+        "merger": "@Stream29",
+        "bullets": [
+            "`parse_and_check_json_markdown` 在模型返回非 dict 结构（如数组、字符串）时，后续下游代码直接当 dict 取 key 会 `AttributeError`。",
+            "修复：解析后显式校验 `isinstance(result, dict)`，不满足直接抛异常，避免脏数据流入后续工具链。",
+            "新增对应回归测试用例。",
+        ],
+    },
+    "langgenius/dify#45261": {
+        "emoji": "🧪", "label": "测试基建",
+        "merger": "@asukaminato0721",
+        "bullets": [
+            "RAG document models 的数据模型层此前测试覆盖薄弱。",
+            "新增 226 行单元测试，覆盖文档创建、分段、状态流转等核心模型方法。",
+            "纯增量测试，不改生产代码。",
+        ],
+    },
 }
 
 
@@ -105,6 +133,17 @@ def main():
 
     prs.sort(key=lambda x: x["stars"], reverse=True)
 
+    # --- Compute aggregate badge numbers ---
+    total_prs = len(prs)
+    total_add = sum(p["additions"] for p in prs)
+    total_del = sum(p["deletions"] for p in prs)
+    # Sum of unique repo stars
+    repo_stars = {}
+    for p in prs:
+        key = f"{p['owner']}/{p['repo']}"
+        repo_stars[key] = p["stars"]
+    total_stars = sum(repo_stars.values())
+
     out = []
     out.append("## 🏆 已合并上游 PR（按仓库 star 数降序）\n")
     out.append("| # | 仓库 | PR | ⭐ Stars | 增 / 删 | 文件 | 含金量 |")
@@ -151,14 +190,33 @@ def main():
         return m.group(1) + "\n" + new_section + "\n" + m.group(2)
 
     new_readme = pat.sub(repl, readme)
+
+    # --- Update top badge row ---
+    stars_str = fmt_stars(total_stars)
+    new_readme = re.sub(
+        r"!\[Merged PRs\]\(https://img\.shields\.io/badge/Merged_PRs-[^)]*\)",
+        f"![Merged PRs](https://img.shields.io/badge/Merged_PRs-{total_prs}-2ea44f?style=for-the-badge)",
+        new_readme,
+    )
+    new_readme = re.sub(
+        r"!\[Stars Reached\]\(https://img\.shields\.io/badge/Upstream_Stars_Reached-[^)]*\)",
+        f"![Stars Reached](https://img.shields.io/badge/Upstream_Stars_Reached-{stars_str}-181717?style=for-the-badge)",
+        new_readme,
+    )
+    new_readme = re.sub(
+        r"!\[Lines\]\(https://img\.shields\.io/badge/Net_CHURN-[^)]*\)",
+        f"![Lines](https://img.shields.io/badge/Net_CHURN-+{total_add}__-{total_del}-008080?style=for-the-badge)",
+        new_readme,
+    )
+
     if new_readme == readme:
-        print("No section marker found; README not modified.")
-        sys.exit(1)
+        print("No changes detected.")
+        sys.exit(0)
 
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(new_readme)
 
-    print(f"README refreshed: {len(prs)} merged PRs, sorted by stars DESC.")
+    print(f"README refreshed: {total_prs} merged PRs, +{total_add}/-{total_del}, {stars_str} stars.")
 
 
 if __name__ == "__main__":
