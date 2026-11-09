@@ -83,6 +83,33 @@ PR_META = {
             "纯增量测试，不改生产代码。",
         ],
     },
+    "langgenius/dify#45262": {
+        "emoji": "🧪", "label": "测试基建",
+        "merger": "@asukaminato0721",
+        "bullets": [
+            "RAG metadata filtering entities（`Condition` / `MetadataFilteringCondition`）此前无测试覆盖。",
+            "新增 35 个用例覆盖全部 19 个比较运算符、类型校验、逻辑组合和非法输入拒绝。",
+            "纯增量测试，不改生产代码；review 轮按 pyrefly strict 补了类型标注。",
+        ],
+    },
+    "langgenius/dify#42997": {
+        "emoji": "🐛", "label": "真实 Bug",
+        "merger": "@asukaminato0721",
+        "bullets": [
+            "JSON-RPC 2.0 规定 `id: 0` 是合法请求 id，但 `create_mcp_error_response` 用 `request_id or 1` 会把 0 变成 1，客户端永远匹配不上错误响应。",
+            "修复：改为 `request_id if request_id is not None else 1`，保留合法的 0 值。",
+            "新增零 id 回归测试。",
+        ],
+    },
+    "langgenius/dify#45256": {
+        "emoji": "🧪", "label": "测试基建",
+        "merger": "@asukaminato0721",
+        "bullets": [
+            "RAG text splitter（`RecursiveCharacterTextSplitter`）此前测试覆盖不完整。",
+            "在原有 111 个用例基础上新增 19 个回归用例：正则分隔符保留/丢弃、chunk_overlap 共享词、超大 chunk 兜底、`split_documents` 元数据映射等。",
+            "纯增量 +114/-0；126 passed, 4 skipped（预存 tiktoken 可选跳过）。",
+        ],
+    },
 }
 
 
@@ -102,8 +129,6 @@ def fmt_stars(n):
 
 
 def build_svg(prs, total_prs, total_stars_str, total_add, total_del):
-    """Build the merged-prs.svg contribution wall."""
-    # Aggregate by repo
     repo_map = {}
     for p in prs:
         key = f"{p['owner']}/{p['repo']}"
@@ -125,7 +150,6 @@ def build_svg(prs, total_prs, total_stars_str, total_add, total_del):
     parts.append(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">')
     parts.append(f'<rect width="{W}" height="{H}" fill="#ffffff"/>')
 
-    # Top stat cards: 3 cards
     card_w = 260
     card_gap = 16
     x0 = 24
@@ -141,14 +165,12 @@ def build_svg(prs, total_prs, total_stars_str, total_add, total_del):
         parts.append(f'<rect x="{cx+card_w-70}" y="16" width="70" height="56" rx="6" fill="{color}"/>')
         parts.append(f'<text x="{cx+card_w-35}" y="51" fill="#ffffff" font-size="19" font-weight="800" text-anchor="middle">{value}</text>')
 
-    # Table header
     ty = top_h
     parts.append(f'<rect x="24" y="{ty}" width="832" height="{header_h}" fill="#ffffff" stroke="#d0d7de"/>')
     parts.append(f'<text x="48" y="{ty+28}" fill="#24292f" font-size="16" font-weight="700">Project</text>')
     parts.append(f'<text x="573" y="{ty+28}" fill="#24292f" font-size="16" font-weight="700" text-anchor="middle">★ Stars</text>')
     parts.append(f'<text x="756" y="{ty+28}" fill="#24292f" font-size="16" font-weight="700" text-anchor="middle">Merged</text>')
 
-    # Rows
     for i, (repo_name, info) in enumerate(repo_rows):
         ry = ty + header_h + i * row_h
         bg = "#f6f8fa" if i % 2 == 1 else "#ffffff"
@@ -157,7 +179,6 @@ def build_svg(prs, total_prs, total_stars_str, total_add, total_del):
         parts.append(f'<text x="573" y="{ry+29}" fill="#24292f" font-size="15" text-anchor="middle">{fmt_stars(info["stars"])}</text>')
         parts.append(f'<text x="756" y="{ry+29}" fill="#24292f" font-size="15" text-anchor="middle">{info["count"]}</text>')
 
-    # Footer
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     fy = ty + header_h + len(repo_rows) * row_h + 12
     parts.append(f'<text x="24" y="{fy}" fill="#57606a" font-size="11">Updated {today} · via GitHub Actions · @TINGyu123644</text>')
@@ -205,7 +226,6 @@ def main():
     total_stars = sum(repo_stars.values())
     total_stars_str = fmt_stars(total_stars)
 
-    # --- Build README PR section ---
     out = []
     out.append("## 🏆 已合并上游 PR（按仓库 star 数降序）\n")
     out.append("| # | 仓库 | PR | ⭐ Stars | 增 / 删 | 文件 | 含金量 |")
@@ -252,7 +272,6 @@ def main():
         return m.group(1) + "\n" + new_section + "\n" + m.group(2)
     new_readme = pat.sub(repl, readme)
 
-    # --- Update top badges ---
     new_readme = re.sub(
         r"!\[Merged PRs\]\(https://img\.shields\.io/badge/Merged_PRs-[^)]*\)",
         f"![Merged PRs](https://img.shields.io/badge/Merged_PRs-{total_prs}-2ea44f?style=for-the-badge)",
@@ -272,7 +291,6 @@ def main():
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(new_readme)
 
-    # --- Generate merged-prs.svg ---
     svg = build_svg(prs, total_prs, total_stars_str, total_add, total_del)
     with open("merged-prs.svg", "w", encoding="utf-8") as f:
         f.write(svg)
