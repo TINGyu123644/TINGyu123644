@@ -20,20 +20,10 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Refresh README PR table (sorted by repo stars desc)
+      - name: Refresh README + badges + SVG wall
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/update_readme.py
-
-      - name: Generate PR wall SVG
-        env:
-          GH_USERNAME: TINGyu123644
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          python scripts/generate_pr_wall.py \
-            --username "$GH_USERNAME" \
-            --token "$GITHUB_TOKEN" \
-            --out merged-prs.svg
 
       - name: Commit changes
         run: |
