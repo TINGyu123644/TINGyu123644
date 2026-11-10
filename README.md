@@ -9,7 +9,7 @@
 ### 在高星 AI / Agent 开源项目里，把 bug 修到上游
 
 ![Merged PRs](https://img.shields.io/badge/Merged_PRs-10-2ea44f?style=for-the-badge)
-![Stars Reached](https://img.shields.io/badge/Upstream_Stars_Reached-444.5k-181717?style=for-the-badge)
+![Stars Reached](https://img.shields.io/badge/Upstream_Stars_Reached-444.6k-181717?style=for-the-badge)
 ![Lines](https://img.shields.io/badge/Net_CHURN-+906__-17-008080?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
@@ -44,7 +44,7 @@
 | 7 | [**langgenius/dify**](https://github.com/langgenius/dify) | [#42997](https://github.com/langgenius/dify/pull/42997) — fix(api): preserve zero JSON-RPC request id in MCP error ... | ![160.9k](https://img.shields.io/badge/⭐-160.9k-181717) | ![+16](https://img.shields.io/badge/+16-brightgreen) / ![-1](https://img.shields.io/badge/-1-lightgrey) | 2 | 🐛 真实 Bug |
 | 8 | [**langflow-ai/langflow**](https://github.com/langflow-ai/langflow) | [#15411](https://github.com/langflow-ai/langflow/pull/15411) — fix(schema): sanitize underscore-prefixed field names in ... | ![156.5k](https://img.shields.io/badge/⭐-156.5k-181717) | ![+264](https://img.shields.io/badge/+264-brightgreen) / ![-11](https://img.shields.io/badge/-11-lightgrey) | 4 | 🏆 核心功能修复 |
 | 9 | [**bytedance/deer-flow**](https://github.com/bytedance/deer-flow) | [#6361](https://github.com/bytedance/deer-flow/pull/6361) — fix(tests): skip MAX_PATH-exceeding blocking-io anchors o... | ![85.2k](https://img.shields.io/badge/⭐-85.2k-181717) | ![+31](https://img.shields.io/badge/+31-brightgreen) / ![-3](https://img.shields.io/badge/-3-lightgrey) | 3 | 🪟 跨平台兼容 |
-| 10 | [**volcengine/OpenViking**](https://github.com/volcengine/OpenViking) | [#6387](https://github.com/volcengine/OpenViking/pull/6387) — fix(compile): keep the compile workspace root absolute (#... | ![41.9k](https://img.shields.io/badge/⭐-41.9k-181717) | ![+39](https://img.shields.io/badge/+39-brightgreen) / ![-2](https://img.shields.io/badge/-2-lightgrey) | 2 | 🐛 真实 Bug |
+| 10 | [**volcengine/OpenViking**](https://github.com/volcengine/OpenViking) | [#6387](https://github.com/volcengine/OpenViking/pull/6387) — fix(compile): keep the compile workspace root absolute (#... | ![42.0k](https://img.shields.io/badge/⭐-42.0k-181717) | ![+39](https://img.shields.io/badge/+39-brightgreen) / ![-2](https://img.shields.io/badge/-2-lightgrey) | 2 | 🐛 真实 Bug |
 
 ### 📖 每条 PR 在修什么
 
