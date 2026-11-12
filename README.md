@@ -8,9 +8,9 @@
 
 ### 在高星 AI / Agent 开源项目里，把 bug 修到上游
 
-![Merged PRs](https://img.shields.io/badge/Merged_PRs-12-2ea44f?style=for-the-badge)
-![Stars Reached](https://img.shields.io/badge/Upstream_Stars_Reached-444.8k-181717?style=for-the-badge)
-![Lines](https://img.shields.io/badge/Net_CHURN-+1087__-17-008080?style=for-the-badge)
+![Merged PRs](https://img.shields.io/badge/Merged_PRs-13-2ea44f?style=for-the-badge)
+![Stars Reached](https://img.shields.io/badge/Upstream_Stars_Reached-444.9k-181717?style=for-the-badge)
+![Lines](https://img.shields.io/badge/Net_CHURN-+1176__-17-008080?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 <br/>
@@ -36,22 +36,29 @@
 | # | 仓库 | PR | ⭐ Stars | 增 / 删 | 文件 | 含金量 |
 |---|---|---|---|---|---|---|
 | 1 | [**langgenius/dify**](https://github.com/langgenius/dify) | [#46041](https://github.com/langgenius/dify/pull/46041) — test(api): add unit tests for libs.collection_utils | ![161.0k](https://img.shields.io/badge/⭐-161.0k-181717) | ![+91](https://img.shields.io/badge/+91-brightgreen) / ![-0](https://img.shields.io/badge/-0-lightgrey) | 1 | 📌 merged |
-| 2 | [**langgenius/dify**](https://github.com/langgenius/dify) | [#45996](https://github.com/langgenius/dify/pull/45996) — test(api): add Pyrefly-clean unit tests for DocumentContext | ![161.0k](https://img.shields.io/badge/⭐-161.0k-181717) | ![+90](https://img.shields.io/badge/+90-brightgreen) / ![-0](https://img.shields.io/badge/-0-lightgrey) | 1 | 📌 merged |
-| 3 | [**langgenius/dify**](https://github.com/langgenius/dify) | [#45262](https://github.com/langgenius/dify/pull/45262) — test(api): add unit tests for metadata filtering entities | ![161.0k](https://img.shields.io/badge/⭐-161.0k-181717) | ![+105](https://img.shields.io/badge/+105-brightgreen) / ![-0](https://img.shields.io/badge/-0-lightgrey) | 2 | 🧪 测试基建 |
-| 4 | [**langgenius/dify**](https://github.com/langgenius/dify) | [#45261](https://github.com/langgenius/dify/pull/45261) — test(api): add unit tests for rag document models | ![161.0k](https://img.shields.io/badge/⭐-161.0k-181717) | ![+226](https://img.shields.io/badge/+226-brightgreen) / ![-0](https://img.shields.io/badge/-0-lightgrey) | 2 | 🧪 测试基建 |
-| 5 | [**langgenius/dify**](https://github.com/langgenius/dify) | [#45256](https://github.com/langgenius/dify/pull/45256) — test(api): add unit tests for rag text splitter | ![161.0k](https://img.shields.io/badge/⭐-161.0k-181717) | ![+115](https://img.shields.io/badge/+115-brightgreen) / ![-0](https://img.shields.io/badge/-0-lightgrey) | 1 | 🧪 测试基建 |
-| 6 | [**langgenius/dify**](https://github.com/langgenius/dify) | [#45255](https://github.com/langgenius/dify/pull/45255) — test(api): add unit tests for uuid_utils.is_valid_uuid | ![161.0k](https://img.shields.io/badge/⭐-161.0k-181717) | ![+32](https://img.shields.io/badge/+32-brightgreen) / ![-0](https://img.shields.io/badge/-0-lightgrey) | 1 | 🧪 测试基建 |
-| 7 | [**langgenius/dify**](https://github.com/langgenius/dify) | [#45254](https://github.com/langgenius/dify/pull/45254) — test(api): add unit tests for remove_leading_symbols | ![161.0k](https://img.shields.io/badge/⭐-161.0k-181717) | ![+59](https://img.shields.io/badge/+59-brightgreen) / ![-0](https://img.shields.io/badge/-0-lightgrey) | 1 | 🧪 测试基建 |
-| 8 | [**langgenius/dify**](https://github.com/langgenius/dify) | [#45225](https://github.com/langgenius/dify/pull/45225) — fix(libs): reject non-dict output in parse_and_check_json... | ![161.0k](https://img.shields.io/badge/⭐-161.0k-181717) | ![+19](https://img.shields.io/badge/+19-brightgreen) / ![-0](https://img.shields.io/badge/-0-lightgrey) | 2 | 🐛 真实 Bug |
-| 9 | [**langgenius/dify**](https://github.com/langgenius/dify) | [#42997](https://github.com/langgenius/dify/pull/42997) — fix(api): preserve zero JSON-RPC request id in MCP error ... | ![161.0k](https://img.shields.io/badge/⭐-161.0k-181717) | ![+16](https://img.shields.io/badge/+16-brightgreen) / ![-1](https://img.shields.io/badge/-1-lightgrey) | 2 | 🐛 真实 Bug |
-| 10 | [**langflow-ai/langflow**](https://github.com/langflow-ai/langflow) | [#15411](https://github.com/langflow-ai/langflow/pull/15411) — fix(schema): sanitize underscore-prefixed field names in ... | ![156.5k](https://img.shields.io/badge/⭐-156.5k-181717) | ![+264](https://img.shields.io/badge/+264-brightgreen) / ![-11](https://img.shields.io/badge/-11-lightgrey) | 4 | 🏆 核心功能修复 |
-| 11 | [**bytedance/deer-flow**](https://github.com/bytedance/deer-flow) | [#6361](https://github.com/bytedance/deer-flow/pull/6361) — fix(tests): skip MAX_PATH-exceeding blocking-io anchors o... | ![85.3k](https://img.shields.io/badge/⭐-85.3k-181717) | ![+31](https://img.shields.io/badge/+31-brightgreen) / ![-3](https://img.shields.io/badge/-3-lightgrey) | 3 | 🪟 跨平台兼容 |
-| 12 | [**volcengine/OpenViking**](https://github.com/volcengine/OpenViking) | [#6387](https://github.com/volcengine/OpenViking/pull/6387) — fix(compile): keep the compile workspace root absolute (#... | ![42.0k](https://img.shields.io/badge/⭐-42.0k-181717) | ![+39](https://img.shields.io/badge/+39-brightgreen) / ![-2](https://img.shields.io/badge/-2-lightgrey) | 2 | 🐛 真实 Bug |
+| 2 | [**langgenius/dify**](https://github.com/langgenius/dify) | [#46026](https://github.com/langgenius/dify/pull/46026) — test(api): pin PluginCredentialType API contract values | ![161.0k](https://img.shields.io/badge/⭐-161.0k-181717) | ![+89](https://img.shields.io/badge/+89-brightgreen) / ![-0](https://img.shields.io/badge/-0-lightgrey) | 1 | 📌 merged |
+| 3 | [**langgenius/dify**](https://github.com/langgenius/dify) | [#45996](https://github.com/langgenius/dify/pull/45996) — test(api): add Pyrefly-clean unit tests for DocumentContext | ![161.0k](https://img.shields.io/badge/⭐-161.0k-181717) | ![+90](https://img.shields.io/badge/+90-brightgreen) / ![-0](https://img.shields.io/badge/-0-lightgrey) | 1 | 📌 merged |
+| 4 | [**langgenius/dify**](https://github.com/langgenius/dify) | [#45262](https://github.com/langgenius/dify/pull/45262) — test(api): add unit tests for metadata filtering entities | ![161.0k](https://img.shields.io/badge/⭐-161.0k-181717) | ![+105](https://img.shields.io/badge/+105-brightgreen) / ![-0](https://img.shields.io/badge/-0-lightgrey) | 2 | 🧪 测试基建 |
+| 5 | [**langgenius/dify**](https://github.com/langgenius/dify) | [#45261](https://github.com/langgenius/dify/pull/45261) — test(api): add unit tests for rag document models | ![161.0k](https://img.shields.io/badge/⭐-161.0k-181717) | ![+226](https://img.shields.io/badge/+226-brightgreen) / ![-0](https://img.shields.io/badge/-0-lightgrey) | 2 | 🧪 测试基建 |
+| 6 | [**langgenius/dify**](https://github.com/langgenius/dify) | [#45256](https://github.com/langgenius/dify/pull/45256) — test(api): add unit tests for rag text splitter | ![161.0k](https://img.shields.io/badge/⭐-161.0k-181717) | ![+115](https://img.shields.io/badge/+115-brightgreen) / ![-0](https://img.shields.io/badge/-0-lightgrey) | 1 | 🧪 测试基建 |
+| 7 | [**langgenius/dify**](https://github.com/langgenius/dify) | [#45255](https://github.com/langgenius/dify/pull/45255) — test(api): add unit tests for uuid_utils.is_valid_uuid | ![161.0k](https://img.shields.io/badge/⭐-161.0k-181717) | ![+32](https://img.shields.io/badge/+32-brightgreen) / ![-0](https://img.shields.io/badge/-0-lightgrey) | 1 | 🧪 测试基建 |
+| 8 | [**langgenius/dify**](https://github.com/langgenius/dify) | [#45254](https://github.com/langgenius/dify/pull/45254) — test(api): add unit tests for remove_leading_symbols | ![161.0k](https://img.shields.io/badge/⭐-161.0k-181717) | ![+59](https://img.shields.io/badge/+59-brightgreen) / ![-0](https://img.shields.io/badge/-0-lightgrey) | 1 | 🧪 测试基建 |
+| 9 | [**langgenius/dify**](https://github.com/langgenius/dify) | [#45225](https://github.com/langgenius/dify/pull/45225) — fix(libs): reject non-dict output in parse_and_check_json... | ![161.0k](https://img.shields.io/badge/⭐-161.0k-181717) | ![+19](https://img.shields.io/badge/+19-brightgreen) / ![-0](https://img.shields.io/badge/-0-lightgrey) | 2 | 🐛 真实 Bug |
+| 10 | [**langgenius/dify**](https://github.com/langgenius/dify) | [#42997](https://github.com/langgenius/dify/pull/42997) — fix(api): preserve zero JSON-RPC request id in MCP error ... | ![161.0k](https://img.shields.io/badge/⭐-161.0k-181717) | ![+16](https://img.shields.io/badge/+16-brightgreen) / ![-1](https://img.shields.io/badge/-1-lightgrey) | 2 | 🐛 真实 Bug |
+| 11 | [**langflow-ai/langflow**](https://github.com/langflow-ai/langflow) | [#15411](https://github.com/langflow-ai/langflow/pull/15411) — fix(schema): sanitize underscore-prefixed field names in ... | ![156.6k](https://img.shields.io/badge/⭐-156.6k-181717) | ![+264](https://img.shields.io/badge/+264-brightgreen) / ![-11](https://img.shields.io/badge/-11-lightgrey) | 4 | 🏆 核心功能修复 |
+| 12 | [**bytedance/deer-flow**](https://github.com/bytedance/deer-flow) | [#6361](https://github.com/bytedance/deer-flow/pull/6361) — fix(tests): skip MAX_PATH-exceeding blocking-io anchors o... | ![85.3k](https://img.shields.io/badge/⭐-85.3k-181717) | ![+31](https://img.shields.io/badge/+31-brightgreen) / ![-3](https://img.shields.io/badge/-3-lightgrey) | 3 | 🪟 跨平台兼容 |
+| 13 | [**volcengine/OpenViking**](https://github.com/volcengine/OpenViking) | [#6387](https://github.com/volcengine/OpenViking/pull/6387) — fix(compile): keep the compile workspace root absolute (#... | ![42.1k](https://img.shields.io/badge/⭐-42.1k-181717) | ![+39](https://img.shields.io/badge/+39-brightgreen) / ![-2](https://img.shields.io/badge/-2-lightgrey) | 2 | 🐛 真实 Bug |
 
 ### 📖 每条 PR 在修什么
 
 #### 📌 [#46041](https://github.com/langgenius/dify/pull/46041) · [langgenius/dify](https://github.com/langgenius/dify) — test(api): add unit tests for libs.collection_util
 **合并者 maintainer · 2026-11-11 · +91 / −0 · 1 files**
+
+
+---
+
+#### 📌 [#46026](https://github.com/langgenius/dify/pull/46026) · [langgenius/dify](https://github.com/langgenius/dify) — test(api): pin PluginCredentialType API contract v
+**合并者 maintainer · 2026-11-12 · +89 / −0 · 1 files**
 
 
 ---
