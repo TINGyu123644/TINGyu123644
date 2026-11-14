@@ -9,7 +9,7 @@
 ### 在高星 AI / Agent 开源项目里，把 bug 修到上游
 
 ![Merged PRs](https://img.shields.io/badge/Merged_PRs-14-2ea44f?style=for-the-badge)
-![Stars Reached](https://img.shields.io/badge/Upstream_Stars_Reached-445.2k-181717?style=for-the-badge)
+![Stars Reached](https://img.shields.io/badge/Upstream_Stars_Reached-445.3k-181717?style=for-the-badge)
 ![Lines](https://img.shields.io/badge/Net_CHURN-+1314__-17-008080?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
