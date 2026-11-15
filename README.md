@@ -9,7 +9,7 @@
 ### 在高星 AI / Agent 开源项目里，把 bug 修到上游
 
 ![Merged PRs](https://img.shields.io/badge/Merged_PRs-14-2ea44f?style=for-the-badge)
-![Stars Reached](https://img.shields.io/badge/Upstream_Stars_Reached-445.4k-181717?style=for-the-badge)
+![Stars Reached](https://img.shields.io/badge/Upstream_Stars_Reached-445.5k-181717?style=for-the-badge)
 ![Lines](https://img.shields.io/badge/Net_CHURN-+1314__-17-008080?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
@@ -47,8 +47,8 @@
 | 10 | [**langgenius/dify**](https://github.com/langgenius/dify) | [#45225](https://github.com/langgenius/dify/pull/45225) — fix(libs): reject non-dict output in parse_and_check_json... | ![161.2k](https://img.shields.io/badge/⭐-161.2k-181717) | ![+19](https://img.shields.io/badge/+19-brightgreen) / ![-0](https://img.shields.io/badge/-0-lightgrey) | 2 | 🐛 真实 Bug |
 | 11 | [**langgenius/dify**](https://github.com/langgenius/dify) | [#42997](https://github.com/langgenius/dify/pull/42997) — fix(api): preserve zero JSON-RPC request id in MCP error ... | ![161.2k](https://img.shields.io/badge/⭐-161.2k-181717) | ![+16](https://img.shields.io/badge/+16-brightgreen) / ![-1](https://img.shields.io/badge/-1-lightgrey) | 2 | 🐛 真实 Bug |
 | 12 | [**langflow-ai/langflow**](https://github.com/langflow-ai/langflow) | [#15411](https://github.com/langflow-ai/langflow/pull/15411) — fix(schema): sanitize underscore-prefixed field names in ... | ![156.7k](https://img.shields.io/badge/⭐-156.7k-181717) | ![+264](https://img.shields.io/badge/+264-brightgreen) / ![-11](https://img.shields.io/badge/-11-lightgrey) | 4 | 🏆 核心功能修复 |
-| 13 | [**bytedance/deer-flow**](https://github.com/bytedance/deer-flow) | [#6361](https://github.com/bytedance/deer-flow/pull/6361) — fix(tests): skip MAX_PATH-exceeding blocking-io anchors o... | ![85.3k](https://img.shields.io/badge/⭐-85.3k-181717) | ![+31](https://img.shields.io/badge/+31-brightgreen) / ![-3](https://img.shields.io/badge/-3-lightgrey) | 3 | 🪟 跨平台兼容 |
-| 14 | [**volcengine/OpenViking**](https://github.com/volcengine/OpenViking) | [#6387](https://github.com/volcengine/OpenViking/pull/6387) — fix(compile): keep the compile workspace root absolute (#... | ![42.2k](https://img.shields.io/badge/⭐-42.2k-181717) | ![+39](https://img.shields.io/badge/+39-brightgreen) / ![-2](https://img.shields.io/badge/-2-lightgrey) | 2 | 🐛 真实 Bug |
+| 13 | [**bytedance/deer-flow**](https://github.com/bytedance/deer-flow) | [#6361](https://github.com/bytedance/deer-flow/pull/6361) — fix(tests): skip MAX_PATH-exceeding blocking-io anchors o... | ![85.4k](https://img.shields.io/badge/⭐-85.4k-181717) | ![+31](https://img.shields.io/badge/+31-brightgreen) / ![-3](https://img.shields.io/badge/-3-lightgrey) | 3 | 🪟 跨平台兼容 |
+| 14 | [**volcengine/OpenViking**](https://github.com/volcengine/OpenViking) | [#6387](https://github.com/volcengine/OpenViking/pull/6387) — fix(compile): keep the compile workspace root absolute (#... | ![42.3k](https://img.shields.io/badge/⭐-42.3k-181717) | ![+39](https://img.shields.io/badge/+39-brightgreen) / ![-2](https://img.shields.io/badge/-2-lightgrey) | 2 | 🐛 真实 Bug |
 
 ### 📖 每条 PR 在修什么
 
