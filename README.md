@@ -8,9 +8,9 @@
 
 ### 在高星 AI / Agent 开源项目里，把 bug 修到上游
 
-![Merged PRs](https://img.shields.io/badge/Merged_PRs-17-2ea44f?style=for-the-badge)
-![Stars Reached](https://img.shields.io/badge/Upstream_Stars_Reached-631.9k-181717?style=for-the-badge)
-![Lines](https://img.shields.io/badge/Net_CHURN-+1317__-19-008080?style=for-the-badge)
+![Merged PRs](https://img.shields.io/badge/Merged_PRs-18-2ea44f?style=for-the-badge)
+![Stars Reached](https://img.shields.io/badge/Upstream_Stars_Reached-675.3k-181717?style=for-the-badge)
+![Lines](https://img.shields.io/badge/Net_CHURN-+1387__-21-008080?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 <br/>
@@ -49,9 +49,10 @@
 | 12 | [**langflow-ai/langflow**](https://github.com/langflow-ai/langflow) | [#15450](https://github.com/langflow-ai/langflow/pull/15450) — docs: document LANGFLOW_WORKFLOW_EXECUTION_TIMEOUT | ![156.8k](https://img.shields.io/badge/⭐-156.8k-181717) | ![+1](https://img.shields.io/badge/+1-brightgreen) / ![-0](https://img.shields.io/badge/-0-lightgrey) | 1 | 📌 merged |
 | 13 | [**langflow-ai/langflow**](https://github.com/langflow-ai/langflow) | [#15411](https://github.com/langflow-ai/langflow/pull/15411) — fix(schema): sanitize underscore-prefixed field names in ... | ![156.8k](https://img.shields.io/badge/⭐-156.8k-181717) | ![+264](https://img.shields.io/badge/+264-brightgreen) / ![-11](https://img.shields.io/badge/-11-lightgrey) | 4 | 🏆 核心功能修复 |
 | 14 | [**OpenHands/OpenHands**](https://github.com/OpenHands/OpenHands) | [#18922](https://github.com/OpenHands/OpenHands/pull/18922) — docs(helm): fix stale session-api-key.txt path in NOTES (... | ![93.9k](https://img.shields.io/badge/⭐-93.9k-181717) | ![+1](https://img.shields.io/badge/+1-brightgreen) / ![-1](https://img.shields.io/badge/-1-lightgrey) | 1 | 📌 merged |
-| 15 | [**opencv/opencv**](https://github.com/opencv/opencv) | [#30956](https://github.com/opencv/opencv/pull/30956) — docs(py_setup): remove dead Enthought downloads link | ![91.6k](https://img.shields.io/badge/⭐-91.6k-181717) | ![+1](https://img.shields.io/badge/+1-brightgreen) / ![-1](https://img.shields.io/badge/-1-lightgrey) | 1 | 📌 merged |
+| 15 | [**opencv/opencv**](https://github.com/opencv/opencv) | [#30956](https://github.com/opencv/opencv/pull/30956) — docs(py_setup): remove dead Enthought downloads link | ![91.7k](https://img.shields.io/badge/⭐-91.7k-181717) | ![+1](https://img.shields.io/badge/+1-brightgreen) / ![-1](https://img.shields.io/badge/-1-lightgrey) | 1 | 📌 merged |
 | 16 | [**bytedance/deer-flow**](https://github.com/bytedance/deer-flow) | [#6361](https://github.com/bytedance/deer-flow/pull/6361) — fix(tests): skip MAX_PATH-exceeding blocking-io anchors o... | ![85.5k](https://img.shields.io/badge/⭐-85.5k-181717) | ![+31](https://img.shields.io/badge/+31-brightgreen) / ![-3](https://img.shields.io/badge/-3-lightgrey) | 3 | 🪟 跨平台兼容 |
-| 17 | [**volcengine/OpenViking**](https://github.com/volcengine/OpenViking) | [#6387](https://github.com/volcengine/OpenViking/pull/6387) — fix(compile): keep the compile workspace root absolute (#... | ![42.5k](https://img.shields.io/badge/⭐-42.5k-181717) | ![+39](https://img.shields.io/badge/+39-brightgreen) / ![-2](https://img.shields.io/badge/-2-lightgrey) | 2 | 🐛 真实 Bug |
+| 17 | [**agno-agi/agno**](https://github.com/agno-agi/agno) | [#10599](https://github.com/agno-agi/agno/pull/10599) — fix: workflow preserve falsy step content (0, False, []) ... | ![43.2k](https://img.shields.io/badge/⭐-43.2k-181717) | ![+70](https://img.shields.io/badge/+70-brightgreen) / ![-2](https://img.shields.io/badge/-2-lightgrey) | 2 | 📌 merged |
+| 18 | [**volcengine/OpenViking**](https://github.com/volcengine/OpenViking) | [#6387](https://github.com/volcengine/OpenViking/pull/6387) — fix(compile): keep the compile workspace root absolute (#... | ![42.5k](https://img.shields.io/badge/⭐-42.5k-181717) | ![+39](https://img.shields.io/badge/+39-brightgreen) / ![-2](https://img.shields.io/badge/-2-lightgrey) | 2 | 🐛 真实 Bug |
 
 ### 📖 每条 PR 在修什么
 
@@ -174,6 +175,12 @@
 
 - `backend/tests/blocking_io/` 下 12 个锚点在 Windows 上确定性地挂在 `OSError: [Errno 206] Filename too long`，突破了 260 字符 MAX_PATH。
 - 给三个受影响文件加模块级 `pytest.mark.skipif(os.name == "nt")`，对齐项目已合并的 `#6257` / `#5931` 约定；POSIX 上照常跑。
+
+---
+
+#### 📌 [#10599](https://github.com/agno-agi/agno/pull/10599) · [agno-agi/agno](https://github.com/agno-agi/agno) — fix: workflow preserve falsy step content (0, Fals
+**合并者 maintainer · 2026-11-20 · +70 / −2 · 2 files**
+
 
 ---
 
