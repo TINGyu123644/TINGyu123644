@@ -9,7 +9,7 @@
 ### 在高星 AI / Agent 开源项目里，把 bug 修到上游
 
 ![Merged PRs](https://img.shields.io/badge/Merged_PRs-22-2ea44f?style=for-the-badge)
-![Stars Reached](https://img.shields.io/badge/Upstream_Stars_Reached-1140.2k-181717?style=for-the-badge)
+![Stars Reached](https://img.shields.io/badge/Upstream_Stars_Reached-1140.5k-181717?style=for-the-badge)
 ![Lines](https://img.shields.io/badge/Net_CHURN-+1473__-50-008080?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
@@ -35,8 +35,8 @@
 
 | # | 仓库 | PR | ⭐ Stars | 增 / 删 | 文件 | 含金量 |
 |---|---|---|---|---|---|---|
-| 1 | [**avelino/awesome-go**](https://github.com/avelino/awesome-go) | [#6904](https://github.com/avelino/awesome-go/pull/6904) — Remove 4 dead enetx links (organization no longer exists) | ![195.8k](https://img.shields.io/badge/⭐-195.8k-181717) | ![+0](https://img.shields.io/badge/+0-brightgreen) / ![-4](https://img.shields.io/badge/-4-lightgrey) | 1 | 📌 merged |
-| 2 | [**ohmyzsh/ohmyzsh**](https://github.com/ohmyzsh/ohmyzsh) | [#14257](https://github.com/ohmyzsh/ohmyzsh/pull/14257) — docs(dotenv): fix dead 1Password Environments doc link | ![190.8k](https://img.shields.io/badge/⭐-190.8k-181717) | ![+1](https://img.shields.io/badge/+1-brightgreen) / ![-1](https://img.shields.io/badge/-1-lightgrey) | 1 | 📌 merged |
+| 1 | [**avelino/awesome-go**](https://github.com/avelino/awesome-go) | [#6904](https://github.com/avelino/awesome-go/pull/6904) — Remove 4 dead enetx links (organization no longer exists) | ![195.9k](https://img.shields.io/badge/⭐-195.9k-181717) | ![+0](https://img.shields.io/badge/+0-brightgreen) / ![-4](https://img.shields.io/badge/-4-lightgrey) | 1 | 📌 merged |
+| 2 | [**ohmyzsh/ohmyzsh**](https://github.com/ohmyzsh/ohmyzsh) | [#14257](https://github.com/ohmyzsh/ohmyzsh/pull/14257) — docs(dotenv): fix dead 1Password Environments doc link | ![190.9k](https://img.shields.io/badge/⭐-190.9k-181717) | ![+1](https://img.shields.io/badge/+1-brightgreen) / ![-1](https://img.shields.io/badge/-1-lightgrey) | 1 | 📌 merged |
 | 3 | [**langgenius/dify**](https://github.com/langgenius/dify) | [#46041](https://github.com/langgenius/dify/pull/46041) — test(api): add unit tests for libs.collection_utils | ![161.9k](https://img.shields.io/badge/⭐-161.9k-181717) | ![+91](https://img.shields.io/badge/+91-brightgreen) / ![-0](https://img.shields.io/badge/-0-lightgrey) | 1 | 📌 merged |
 | 4 | [**langgenius/dify**](https://github.com/langgenius/dify) | [#46026](https://github.com/langgenius/dify/pull/46026) — test(api): pin PluginCredentialType API contract values | ![161.9k](https://img.shields.io/badge/⭐-161.9k-181717) | ![+89](https://img.shields.io/badge/+89-brightgreen) / ![-0](https://img.shields.io/badge/-0-lightgrey) | 1 | 📌 merged |
 | 5 | [**langgenius/dify**](https://github.com/langgenius/dify) | [#45997](https://github.com/langgenius/dify/pull/45997) — test(api): add Pyrefly-clean unit tests for index entities | ![161.9k](https://img.shields.io/badge/⭐-161.9k-181717) | ![+138](https://img.shields.io/badge/+138-brightgreen) / ![-0](https://img.shields.io/badge/-0-lightgrey) | 1 | 📌 merged |
@@ -54,7 +54,7 @@
 | 17 | [**opencv/opencv**](https://github.com/opencv/opencv) | [#30956](https://github.com/opencv/opencv/pull/30956) — docs(py_setup): remove dead Enthought downloads link | ![91.7k](https://img.shields.io/badge/⭐-91.7k-181717) | ![+1](https://img.shields.io/badge/+1-brightgreen) / ![-1](https://img.shields.io/badge/-1-lightgrey) | 1 | 📌 merged |
 | 18 | [**bytedance/deer-flow**](https://github.com/bytedance/deer-flow) | [#6361](https://github.com/bytedance/deer-flow/pull/6361) — fix(tests): skip MAX_PATH-exceeding blocking-io anchors o... | ![85.8k](https://img.shields.io/badge/⭐-85.8k-181717) | ![+31](https://img.shields.io/badge/+31-brightgreen) / ![-3](https://img.shields.io/badge/-3-lightgrey) | 3 | 🪟 跨平台兼容 |
 | 19 | [**agno-agi/agno**](https://github.com/agno-agi/agno) | [#10599](https://github.com/agno-agi/agno/pull/10599) — fix: workflow preserve falsy step content (0, False, []) ... | ![43.3k](https://img.shields.io/badge/⭐-43.3k-181717) | ![+70](https://img.shields.io/badge/+70-brightgreen) / ![-2](https://img.shields.io/badge/-2-lightgrey) | 2 | 📌 merged |
-| 20 | [**volcengine/OpenViking**](https://github.com/volcengine/OpenViking) | [#6387](https://github.com/volcengine/OpenViking/pull/6387) — fix(compile): keep the compile workspace root absolute (#... | ![42.7k](https://img.shields.io/badge/⭐-42.7k-181717) | ![+39](https://img.shields.io/badge/+39-brightgreen) / ![-2](https://img.shields.io/badge/-2-lightgrey) | 2 | 🐛 真实 Bug |
+| 20 | [**volcengine/OpenViking**](https://github.com/volcengine/OpenViking) | [#6387](https://github.com/volcengine/OpenViking/pull/6387) — fix(compile): keep the compile workspace root absolute (#... | ![42.8k](https://img.shields.io/badge/⭐-42.8k-181717) | ![+39](https://img.shields.io/badge/+39-brightgreen) / ![-2](https://img.shields.io/badge/-2-lightgrey) | 2 | 🐛 真实 Bug |
 | 21 | [**gofiber/fiber**](https://github.com/gofiber/fiber) | [#4903](https://github.com/gofiber/fiber/pull/4903) — 📒 docs: remove dead CSRF recipe link | ![40.3k](https://img.shields.io/badge/⭐-40.3k-181717) | ![+0](https://img.shields.io/badge/+0-brightgreen) / ![-1](https://img.shields.io/badge/-1-lightgrey) | 1 | 📌 merged |
 | 22 | [**agentscope-ai/agentscope**](https://github.com/agentscope-ai/agentscope) | [#4181](https://github.com/agentscope-ai/agentscope/pull/4181) — fix(security): enforce stdio MCP allowlist on from-librar... | ![36.7k](https://img.shields.io/badge/⭐-36.7k-181717) | ![+85](https://img.shields.io/badge/+85-brightgreen) / ![-23](https://img.shields.io/badge/-23-lightgrey) | 3 | 📌 merged |
 
