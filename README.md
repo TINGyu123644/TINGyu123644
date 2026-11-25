@@ -9,7 +9,7 @@
 ### 在高星 AI / Agent 开源项目里，把 bug 修到上游
 
 ![Merged PRs](https://img.shields.io/badge/Merged_PRs-22-2ea44f?style=for-the-badge)
-![Stars Reached](https://img.shields.io/badge/Upstream_Stars_Reached-1140.5k-181717?style=for-the-badge)
+![Stars Reached](https://img.shields.io/badge/Upstream_Stars_Reached-1140.7k-181717?style=for-the-badge)
 ![Lines](https://img.shields.io/badge/Net_CHURN-+1473__-50-008080?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
@@ -35,7 +35,7 @@
 
 | # | 仓库 | PR | ⭐ Stars | 增 / 删 | 文件 | 含金量 |
 |---|---|---|---|---|---|---|
-| 1 | [**avelino/awesome-go**](https://github.com/avelino/awesome-go) | [#6904](https://github.com/avelino/awesome-go/pull/6904) — Remove 4 dead enetx links (organization no longer exists) | ![195.9k](https://img.shields.io/badge/⭐-195.9k-181717) | ![+0](https://img.shields.io/badge/+0-brightgreen) / ![-4](https://img.shields.io/badge/-4-lightgrey) | 1 | 📌 merged |
+| 1 | [**avelino/awesome-go**](https://github.com/avelino/awesome-go) | [#6904](https://github.com/avelino/awesome-go/pull/6904) — Remove 4 dead enetx links (organization no longer exists) | ![196.0k](https://img.shields.io/badge/⭐-196.0k-181717) | ![+0](https://img.shields.io/badge/+0-brightgreen) / ![-4](https://img.shields.io/badge/-4-lightgrey) | 1 | 📌 merged |
 | 2 | [**ohmyzsh/ohmyzsh**](https://github.com/ohmyzsh/ohmyzsh) | [#14257](https://github.com/ohmyzsh/ohmyzsh/pull/14257) — docs(dotenv): fix dead 1Password Environments doc link | ![190.9k](https://img.shields.io/badge/⭐-190.9k-181717) | ![+1](https://img.shields.io/badge/+1-brightgreen) / ![-1](https://img.shields.io/badge/-1-lightgrey) | 1 | 📌 merged |
 | 3 | [**langgenius/dify**](https://github.com/langgenius/dify) | [#46041](https://github.com/langgenius/dify/pull/46041) — test(api): add unit tests for libs.collection_utils | ![161.9k](https://img.shields.io/badge/⭐-161.9k-181717) | ![+91](https://img.shields.io/badge/+91-brightgreen) / ![-0](https://img.shields.io/badge/-0-lightgrey) | 1 | 📌 merged |
 | 4 | [**langgenius/dify**](https://github.com/langgenius/dify) | [#46026](https://github.com/langgenius/dify/pull/46026) — test(api): pin PluginCredentialType API contract values | ![161.9k](https://img.shields.io/badge/⭐-161.9k-181717) | ![+89](https://img.shields.io/badge/+89-brightgreen) / ![-0](https://img.shields.io/badge/-0-lightgrey) | 1 | 📌 merged |
