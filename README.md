@@ -8,9 +8,9 @@
 
 ### 在高星 AI / Agent 开源项目里，把 bug 修到上游
 
-![Merged PRs](https://img.shields.io/badge/Merged_PRs-24-2ea44f?style=for-the-badge)
-![Stars Reached](https://img.shields.io/badge/Upstream_Stars_Reached-1147.3k-181717?style=for-the-badge)
-![Lines](https://img.shields.io/badge/Net_CHURN-+1787__-96-008080?style=for-the-badge)
+![Merged PRs](https://img.shields.io/badge/Merged_PRs-25-2ea44f?style=for-the-badge)
+![Stars Reached](https://img.shields.io/badge/Upstream_Stars_Reached-1147.4k-181717?style=for-the-badge)
+![Lines](https://img.shields.io/badge/Net_CHURN-+2721__-150-008080?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 <br/>
@@ -59,6 +59,7 @@
 | 22 | [**agentscope-ai/agentscope**](https://github.com/agentscope-ai/agentscope) | [#4181](https://github.com/agentscope-ai/agentscope/pull/4181) — fix(security): enforce stdio MCP allowlist on from-librar... | ![36.8k](https://img.shields.io/badge/⭐-36.8k-181717) | ![+85](https://img.shields.io/badge/+85-brightgreen) / ![-23](https://img.shields.io/badge/-23-lightgrey) | 3 | 📌 merged |
 | 23 | [**Tencent/teamai-cli**](https://github.com/Tencent/teamai-cli) | [#2074](https://github.com/Tencent/teamai-cli/pull/2074) — fix(import): route GitCode PR URLs to its provider, match... | ![5.9k](https://img.shields.io/badge/⭐-5.9k-181717) | ![+124](https://img.shields.io/badge/+124-brightgreen) / ![-4](https://img.shields.io/badge/-4-lightgrey) | 2 | 📌 merged |
 | 24 | [**Tencent/teamai-cli**](https://github.com/Tencent/teamai-cli) | [#2068](https://github.com/Tencent/teamai-cli/pull/2068) — fix(knowledge): lock the shared worktree against concurre... | ![5.9k](https://img.shields.io/badge/⭐-5.9k-181717) | ![+190](https://img.shields.io/badge/+190-brightgreen) / ![-42](https://img.shields.io/badge/-42-lightgrey) | 4 | 📌 merged |
+| 25 | [**Tencent/teamai-cli**](https://github.com/Tencent/teamai-cli) | [#2044](https://github.com/Tencent/teamai-cli/pull/2044) — fix(namespaces): match a declared namespace to its direct... | ![5.9k](https://img.shields.io/badge/⭐-5.9k-181717) | ![+934](https://img.shields.io/badge/+934-brightgreen) / ![-54](https://img.shields.io/badge/-54-lightgrey) | 15 | 📌 merged |
 
 ### 📖 每条 PR 在修什么
 
@@ -231,6 +232,12 @@
 
 #### 📌 [#2068](https://github.com/Tencent/teamai-cli/pull/2068) · [Tencent/teamai-cli](https://github.com/Tencent/teamai-cli) — fix(knowledge): lock the shared worktree against c
 **合并者 maintainer · 2026-11-26 · +190 / −42 · 4 files**
+
+
+---
+
+#### 📌 [#2044](https://github.com/Tencent/teamai-cli/pull/2044) · [Tencent/teamai-cli](https://github.com/Tencent/teamai-cli) — fix(namespaces): match a declared namespace to its
+**合并者 maintainer · 2026-11-27 · +934 / −54 · 15 files**
 
 
 ---
