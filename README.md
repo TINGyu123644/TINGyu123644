@@ -8,9 +8,9 @@
 
 ### 在高星 AI / Agent 开源项目里，把 bug 修到上游
 
-![Merged PRs](https://img.shields.io/badge/Merged_PRs-25-2ea44f?style=for-the-badge)
-![Stars Reached](https://img.shields.io/badge/Upstream_Stars_Reached-1147.7k-181717?style=for-the-badge)
-![Lines](https://img.shields.io/badge/Net_CHURN-+2721__-150-008080?style=for-the-badge)
+![Merged PRs](https://img.shields.io/badge/Merged_PRs-26-2ea44f?style=for-the-badge)
+![Stars Reached](https://img.shields.io/badge/Upstream_Stars_Reached-1172.1k-181717?style=for-the-badge)
+![Lines](https://img.shields.io/badge/Net_CHURN-+2814__-152-008080?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 <br/>
@@ -51,15 +51,16 @@
 | 14 | [**langflow-ai/langflow**](https://github.com/langflow-ai/langflow) | [#15450](https://github.com/langflow-ai/langflow/pull/15450) — docs: document LANGFLOW_WORKFLOW_EXECUTION_TIMEOUT | ![157.0k](https://img.shields.io/badge/⭐-157.0k-181717) | ![+1](https://img.shields.io/badge/+1-brightgreen) / ![-0](https://img.shields.io/badge/-0-lightgrey) | 1 | 📌 merged |
 | 15 | [**langflow-ai/langflow**](https://github.com/langflow-ai/langflow) | [#15411](https://github.com/langflow-ai/langflow/pull/15411) — fix(schema): sanitize underscore-prefixed field names in ... | ![157.0k](https://img.shields.io/badge/⭐-157.0k-181717) | ![+264](https://img.shields.io/badge/+264-brightgreen) / ![-11](https://img.shields.io/badge/-11-lightgrey) | 4 | 🏆 核心功能修复 |
 | 16 | [**OpenHands/OpenHands**](https://github.com/OpenHands/OpenHands) | [#18922](https://github.com/OpenHands/OpenHands/pull/18922) — docs(helm): fix stale session-api-key.txt path in NOTES (... | ![94.5k](https://img.shields.io/badge/⭐-94.5k-181717) | ![+1](https://img.shields.io/badge/+1-brightgreen) / ![-1](https://img.shields.io/badge/-1-lightgrey) | 1 | 📌 merged |
-| 17 | [**opencv/opencv**](https://github.com/opencv/opencv) | [#30956](https://github.com/opencv/opencv/pull/30956) — docs(py_setup): remove dead Enthought downloads link | ![91.7k](https://img.shields.io/badge/⭐-91.7k-181717) | ![+1](https://img.shields.io/badge/+1-brightgreen) / ![-1](https://img.shields.io/badge/-1-lightgrey) | 1 | 📌 merged |
+| 17 | [**opencv/opencv**](https://github.com/opencv/opencv) | [#30956](https://github.com/opencv/opencv/pull/30956) — docs(py_setup): remove dead Enthought downloads link | ![91.8k](https://img.shields.io/badge/⭐-91.8k-181717) | ![+1](https://img.shields.io/badge/+1-brightgreen) / ![-1](https://img.shields.io/badge/-1-lightgrey) | 1 | 📌 merged |
 | 18 | [**bytedance/deer-flow**](https://github.com/bytedance/deer-flow) | [#6361](https://github.com/bytedance/deer-flow/pull/6361) — fix(tests): skip MAX_PATH-exceeding blocking-io anchors o... | ![85.9k](https://img.shields.io/badge/⭐-85.9k-181717) | ![+31](https://img.shields.io/badge/+31-brightgreen) / ![-3](https://img.shields.io/badge/-3-lightgrey) | 3 | 🪟 跨平台兼容 |
 | 19 | [**agno-agi/agno**](https://github.com/agno-agi/agno) | [#10599](https://github.com/agno-agi/agno/pull/10599) — fix: workflow preserve falsy step content (0, False, []) ... | ![43.3k](https://img.shields.io/badge/⭐-43.3k-181717) | ![+70](https://img.shields.io/badge/+70-brightgreen) / ![-2](https://img.shields.io/badge/-2-lightgrey) | 2 | 📌 merged |
-| 20 | [**volcengine/OpenViking**](https://github.com/volcengine/OpenViking) | [#6387](https://github.com/volcengine/OpenViking/pull/6387) — fix(compile): keep the compile workspace root absolute (#... | ![42.9k](https://img.shields.io/badge/⭐-42.9k-181717) | ![+39](https://img.shields.io/badge/+39-brightgreen) / ![-2](https://img.shields.io/badge/-2-lightgrey) | 2 | 🐛 真实 Bug |
+| 20 | [**volcengine/OpenViking**](https://github.com/volcengine/OpenViking) | [#6387](https://github.com/volcengine/OpenViking/pull/6387) — fix(compile): keep the compile workspace root absolute (#... | ![43.0k](https://img.shields.io/badge/⭐-43.0k-181717) | ![+39](https://img.shields.io/badge/+39-brightgreen) / ![-2](https://img.shields.io/badge/-2-lightgrey) | 2 | 🐛 真实 Bug |
 | 21 | [**gofiber/fiber**](https://github.com/gofiber/fiber) | [#4903](https://github.com/gofiber/fiber/pull/4903) — 📒 docs: remove dead CSRF recipe link | ![40.3k](https://img.shields.io/badge/⭐-40.3k-181717) | ![+0](https://img.shields.io/badge/+0-brightgreen) / ![-1](https://img.shields.io/badge/-1-lightgrey) | 1 | 📌 merged |
 | 22 | [**agentscope-ai/agentscope**](https://github.com/agentscope-ai/agentscope) | [#4181](https://github.com/agentscope-ai/agentscope/pull/4181) — fix(security): enforce stdio MCP allowlist on from-librar... | ![36.8k](https://img.shields.io/badge/⭐-36.8k-181717) | ![+85](https://img.shields.io/badge/+85-brightgreen) / ![-23](https://img.shields.io/badge/-23-lightgrey) | 3 | 📌 merged |
-| 23 | [**Tencent/teamai-cli**](https://github.com/Tencent/teamai-cli) | [#2074](https://github.com/Tencent/teamai-cli/pull/2074) — fix(import): route GitCode PR URLs to its provider, match... | ![5.9k](https://img.shields.io/badge/⭐-5.9k-181717) | ![+124](https://img.shields.io/badge/+124-brightgreen) / ![-4](https://img.shields.io/badge/-4-lightgrey) | 2 | 📌 merged |
-| 24 | [**Tencent/teamai-cli**](https://github.com/Tencent/teamai-cli) | [#2068](https://github.com/Tencent/teamai-cli/pull/2068) — fix(knowledge): lock the shared worktree against concurre... | ![5.9k](https://img.shields.io/badge/⭐-5.9k-181717) | ![+190](https://img.shields.io/badge/+190-brightgreen) / ![-42](https://img.shields.io/badge/-42-lightgrey) | 4 | 📌 merged |
-| 25 | [**Tencent/teamai-cli**](https://github.com/Tencent/teamai-cli) | [#2044](https://github.com/Tencent/teamai-cli/pull/2044) — fix(namespaces): match a declared namespace to its direct... | ![5.9k](https://img.shields.io/badge/⭐-5.9k-181717) | ![+934](https://img.shields.io/badge/+934-brightgreen) / ![-54](https://img.shields.io/badge/-54-lightgrey) | 15 | 📌 merged |
+| 23 | [**MagicMirrorOrg/MagicMirror**](https://github.com/MagicMirrorOrg/MagicMirror) | [#4353](https://github.com/MagicMirrorOrg/MagicMirror/pull/4353) — fix(socketclient): respect basePath when importing Socket... | ![24.3k](https://img.shields.io/badge/⭐-24.3k-181717) | ![+93](https://img.shields.io/badge/+93-brightgreen) / ![-2](https://img.shields.io/badge/-2-lightgrey) | 3 | 📌 merged |
+| 24 | [**Tencent/teamai-cli**](https://github.com/Tencent/teamai-cli) | [#2074](https://github.com/Tencent/teamai-cli/pull/2074) — fix(import): route GitCode PR URLs to its provider, match... | ![5.9k](https://img.shields.io/badge/⭐-5.9k-181717) | ![+124](https://img.shields.io/badge/+124-brightgreen) / ![-4](https://img.shields.io/badge/-4-lightgrey) | 2 | 📌 merged |
+| 25 | [**Tencent/teamai-cli**](https://github.com/Tencent/teamai-cli) | [#2068](https://github.com/Tencent/teamai-cli/pull/2068) — fix(knowledge): lock the shared worktree against concurre... | ![5.9k](https://img.shields.io/badge/⭐-5.9k-181717) | ![+190](https://img.shields.io/badge/+190-brightgreen) / ![-42](https://img.shields.io/badge/-42-lightgrey) | 4 | 📌 merged |
+| 26 | [**Tencent/teamai-cli**](https://github.com/Tencent/teamai-cli) | [#2044](https://github.com/Tencent/teamai-cli/pull/2044) — fix(namespaces): match a declared namespace to its direct... | ![5.9k](https://img.shields.io/badge/⭐-5.9k-181717) | ![+934](https://img.shields.io/badge/+934-brightgreen) / ![-54](https://img.shields.io/badge/-54-lightgrey) | 15 | 📌 merged |
 
 ### 📖 每条 PR 在修什么
 
@@ -220,6 +221,12 @@
 
 #### 📌 [#4181](https://github.com/agentscope-ai/agentscope/pull/4181) · [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) — fix(security): enforce stdio MCP allowlist on from
 **合并者 maintainer · 2026-11-24 · +85 / −23 · 3 files**
+
+
+---
+
+#### 📌 [#4353](https://github.com/MagicMirrorOrg/MagicMirror/pull/4353) · [MagicMirrorOrg/MagicMirror](https://github.com/MagicMirrorOrg/MagicMirror) — fix(socketclient): respect basePath when importing
+**合并者 maintainer · 2026-11-28 · +93 / −2 · 3 files**
 
 
 ---
